@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.home__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.home__header a{
+    margin-right: 20px;
+    text-decoration: inherit;
+    color: rgba(0, 0, 0, 0.87);
+}
+/*acction activate when de pointer this in,
+this case add  ___ underline whe mouser its
+over object*/
+.home__header a:hover{
+    text-decoration: underline;
+}
