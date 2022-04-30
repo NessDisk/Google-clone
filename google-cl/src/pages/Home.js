@@ -1,7 +1,7 @@
 import "../pages/Home.css";
 import {Link} from "react-router-dom"
-import AppsIcon from '@material-ui/';
-import {Avatar} from '@mui/icons-material/AccountCircle';
+import AppsIcon from '@material-ui/icons/Apps';
+import {Avatar} from '@material-ui/core';
 
 function Home(){
   
@@ -17,7 +17,7 @@ function Home(){
                 <Link to="/gmail"> Gmail</Link>
                 <Link to="/images"> Images</Link>
                 <AppsIcon/>
-                {/* <Avatar/> */}
+                <Avatar/>
                           
                 
                 </div>
