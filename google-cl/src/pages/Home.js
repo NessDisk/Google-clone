@@ -2,6 +2,7 @@ import "../pages/Home.css";
 import {Link} from "react-router-dom"
 import AppsIcon from '@material-ui/icons/Apps';
 import {Avatar} from '@material-ui/core';
+import Search from "../Search";
 
 function Home(){
   
@@ -24,9 +25,14 @@ function Home(){
                 </div>
 
                 <div className='home__body'>
-                
+                <img src="https://res.cloudinary.com/demo/image/fetch/f_auto/https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                alt=''
+                />
+<Search hidenButtons={true}/>
                 </div>
+                
         </div>
+      
 
 
     )

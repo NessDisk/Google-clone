@@ -22,3 +22,32 @@ over object*/
 .home__header a:hover{
     text-decoration: underline;
 }
+
+
+/*Reorganice  the items, leaves from on a  line horizontal */
+.home__headerRight{
+    display: flex;
+    align-items: center;
+    min-width: 13vw;
+    justify-content: space-between;
+}
+
+.home__headerRight > .MuiSvgIcom-root {
+margin-right: 25px;
+}
+
+
+/* body of app(google image ) */
+.home__body{
+
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+
+}
+
+.home__body > img{
+    object-fit: contain;
+    height: 150px;
+}
